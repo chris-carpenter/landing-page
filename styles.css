@@ -173,3 +173,7 @@
     color: white;
 
 }
+
+.footer-button > button:hover {
+    background-color: black;
+}
