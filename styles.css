@@ -3,6 +3,7 @@
 
 }
 
+
 .header-container {
     display: flex;
     background-color: #1F2937;
@@ -82,10 +83,11 @@
 }
 
 .icon-container {
-    justify-content: center;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
     margin: 30px auto 30px auto;
+    text-align: center;
 }
 
 .icon-container > h1 {
@@ -99,14 +101,19 @@
 }
 
 .box {
+    display: flex;
     width: 250px;
     margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .square-img {
     border:4px solid rgba(0, 119, 255, 0.667);
     height: 150px;
-    width: 150px;
+    width: 250px;
     border-radius: 10px;
 }
 
@@ -135,5 +142,34 @@
     width: 60%;
     margin-bottom: 30px;
     font-size: 30px;
+
+}
+
+.footer-container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.footer-box {
+    display: flex;
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-button > button {
+    background-color: rgba(0, 119, 255, 0.667);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
 
 }
